@@ -62,8 +62,8 @@ $color:rgba(142, 173, 213, 0.24);
       
       .span{
         position: relative;
-        top: -14vh;
-        left: -70vw;
+        top: 8vh;
+        left: -2vw;
         //transform: translate(-2vw,32vh);
         font-weight: 100;
         font-size: 16px;
@@ -85,6 +85,7 @@ $color:rgba(142, 173, 213, 0.24);
       }
     }
     #bus{
+      transform: translate(-8vw,11vh) scale(1.4);
       width: 40vw;
       height: 48vh;
       object-fit: contain;
@@ -197,7 +198,7 @@ article{
         font-weight: 400;
       }
       .img3{
-        transform: translate(-14vw,-14vh) scale(0.07);
+        transform: translate(-12vw,-14vh) scale(0.07);
       }
       .img3:hover{
         opacity: 50%;
@@ -348,6 +349,10 @@ aside{
     }
     aside{
       section{
+        .span{
+          top: -13vh;
+          left: -70vw;
+        }
         button{
           width: 20vw;
         }
@@ -481,7 +486,7 @@ aside{
         }
       }
       .img2{
-        transform: translate(45vw,-35vh) scale(3.2);
+        transform: translate(45vw,-15vh) scale(3.2);
       }
     }
     aside{
