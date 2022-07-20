@@ -486,7 +486,9 @@ aside{
         }
       }
       .img2{
-        margin-top: 12vh;
+        margin-top: 17vh;
+        -webkit-transform:translate(45vw,-15vh) scale(3.2) ;
+        -moz-transform: translate(45vw,-15vh) scale(3.2);
         transform: translate(45vw,-15vh) scale(3.2);
       }
     }
