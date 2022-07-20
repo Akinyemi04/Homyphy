@@ -416,8 +416,8 @@ aside .div button:hover {
   }
   .App aside #bus {
     position: absolute;
-    transform: scale(2.8);
-    top: 63vh;
+    transform: scale(2.5);
+    top: 68vh;
     left: 65vw;
     /*width: 100vw;
     height: 60vh;
@@ -457,7 +457,7 @@ aside .div button:hover {
   }
   article {
     margin-top: 50vh;
-    height: 190vh;
+    height: 210vh;
     width: 180vw;
     background-size: cover;
   }
@@ -472,7 +472,7 @@ aside .div button:hover {
     width: 140vw;
   }
   article section div .img3 {
-    transform: translate(-19vw, -19vh) scale(0.05) rotate(90deg);
+    transform: translate(-21vw, -22vh) scale(0.05) rotate(90deg);
   }
   article section .img2 {
     position: absolute;
