@@ -381,6 +381,9 @@ aside .div button:hover {
   .App nav ul li {
     margin-bottom: 5vh;
   }
+  .App aside {
+    position: relative;
+  }
   .App aside section {
     margin-top: 2vh;
     margin-left: 5vw;
@@ -412,9 +415,13 @@ aside .div button:hover {
     border-radius: 2vw;
   }
   .App aside #bus {
-    width: 100vw;
+    position: absolute;
+    transform: scale(2.8);
+    top: 63vh;
+    left: 65vw;
+    /*width: 100vw;
     height: 60vh;
-    transform: translate(-30vw, 66vh);
+    transform: translate(-30vw,66vh);*/
   }
   .App span {
     transform: translate(30vw, 70vh);
@@ -450,12 +457,13 @@ aside .div button:hover {
   }
   article {
     margin-top: 50vh;
-    height: 220vh;
-    width: 160vw;
+    height: 190vh;
+    width: 180vw;
     background-size: cover;
   }
   article section {
     flex-direction: column;
+    position: relative;
   }
   article section div {
     margin-left: 21vw;
@@ -467,10 +475,15 @@ aside .div button:hover {
     transform: translate(-19vw, -19vh) scale(0.05) rotate(90deg);
   }
   article section .img2 {
-    margin-top: 24vh;
+    position: absolute;
+    transform: scale(3);
+    bottom: -20vh;
+    left: 50vw;
     /*height:100vh ;
-    width: 84vw;*/
-    transform: translate(45vw, -15vh) scale(3);
+    width: 84vw;
+    -webkit-transform:translate(45vw,-15vh) scale(3) ;
+    -moz-transform: translate(45vw,-15vh) scale(3) ;
+    transform: translate(45vw,-15vh) scale(3) ;*/
   }
   article aside {
     flex-direction: column-reverse;
