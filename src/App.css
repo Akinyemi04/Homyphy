@@ -419,9 +419,6 @@ aside .div button:hover {
     transform: scale(2.7);
     top: 78vh;
     left: 65vw;
-    /*width: 100vw;
-    height: 60vh;
-    transform: translate(-30vw,66vh);*/
   }
   .App span {
     transform: translate(30vw, 84vh);
@@ -466,7 +463,7 @@ aside .div button:hover {
     position: relative;
   }
   article section div {
-    margin-left: 21vw;
+    margin-left: 41vw;
   }
   article section div p {
     width: 140vw;
@@ -478,23 +475,18 @@ aside .div button:hover {
     position: absolute;
     transform: scale(3) translateY(18vh);
     left: 50vw;
-    /*height:100vh ;
-    width: 84vw;
-    -webkit-transform:translate(45vw,-15vh) scale(3) ;
-    -moz-transform: translate(45vw,-15vh) scale(3) ;
-    transform: translate(45vw,-15vh) scale(3) ;*/
   }
   article aside {
     flex-direction: column-reverse;
   }
   article aside .img1 {
-    margin-left: 26vw;
+    margin-left: 40vw;
     margin-top: 18vh;
     width: 90vw;
     height: 55vh;
   }
   article aside div {
-    margin-left: 12vw;
+    margin-left: 30vw;
   }
   article aside div h2 {
     width: 94vw;
