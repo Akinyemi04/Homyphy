@@ -416,18 +416,18 @@ aside .div button:hover {
   }
   .App aside #bus {
     position: absolute;
-    transform: scale(2.5);
-    top: 68vh;
+    transform: scale(2.7);
+    top: 78vh;
     left: 65vw;
     /*width: 100vw;
     height: 60vh;
     transform: translate(-30vw,66vh);*/
   }
   .App span {
-    transform: translate(30vw, 70vh);
+    transform: translate(30vw, 84vh);
   }
   .App footer {
-    transform: translate(13vw, 72vh);
+    transform: translate(13vw, 87vh);
   }
   .App footer ul {
     -webkit-margin-before: 0;
@@ -456,7 +456,7 @@ aside .div button:hover {
     margin-top: 4vh;
   }
   article {
-    margin-top: 50vh;
+    margin-top: 70vh;
     height: 210vh;
     width: 180vw;
     background-size: cover;
@@ -476,7 +476,7 @@ aside .div button:hover {
   }
   article section .img2 {
     position: absolute;
-    transform: scale(3);
+    transform: scale(3) translateY(0vh);
     bottom: -20vh;
     left: 50vw;
     /*height:100vh ;

@@ -436,8 +436,8 @@ aside{
       }
       #bus{
         position: absolute;
-        transform: scale(2.5);
-        top: 68vh;
+        transform: scale(2.7);
+        top: 78vh;
         left: 65vw;
         /*width: 100vw;
         height: 60vh;
@@ -445,10 +445,10 @@ aside{
       }
     }
     span{
-      transform: translate(30vw,70vh);
+      transform: translate(30vw,84vh);
     }
     footer{
-      transform: translate(13vw,72vh);
+      transform: translate(13vw,87vh);
       ul{
         margin-block-start: 0;
         margin-block-end:0 ;
@@ -475,12 +475,13 @@ aside{
     }
   }
   article{
-    margin-top: 50vh;
+    margin-top: 70vh;
     height: 210vh;
     width: 180vw;
     background-size: cover;
     section{
       flex-direction: column;
+      //background-color: pink;
       position: relative;
       
       div{
@@ -494,7 +495,7 @@ aside{
       }
       .img2{
         position: absolute;
-        transform: scale(3);
+        transform: scale(3) translateY(0vh);
         //top:20vh ;
         bottom: -20vh;
         left: 50vw;
