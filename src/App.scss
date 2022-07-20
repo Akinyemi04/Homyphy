@@ -495,9 +495,9 @@ aside{
       }
       .img2{
         position: absolute;
-        transform: scale(3) translateY(0vh);
+        transform: scale(3) translateY(20vh);
         //top:20vh ;
-        bottom: -20vh;
+        //bottom: -20vh;
         left: 50vw;
 
         /*height:100vh ;
@@ -510,7 +510,7 @@ aside{
     aside{
       flex-direction:column-reverse;
       .img1{
-        margin-left: 22vw;
+        margin-left: 26vw;
         margin-top: 18vh;
         width: 90vw;
         height: 55vh;
