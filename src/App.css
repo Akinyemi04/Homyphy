@@ -474,7 +474,7 @@ aside .div button:hover {
   article {
     margin-top: 70vh;
     height: 210vh;
-    width: 200vw;
+    width: 210vw;
     background-size: cover;
   }
   article section {
@@ -483,7 +483,7 @@ aside .div button:hover {
     margin-left: 15vw;
   }
   article section div {
-    margin-left: 41vw;
+    margin-left: 47vw;
   }
   article section div p {
     width: 140vw;
@@ -493,20 +493,20 @@ aside .div button:hover {
   }
   article section .img2 {
     position: absolute;
-    transform: scale(3) translateY(17vh);
+    transform: scale(3) translateY(16vh);
     left: 50vw;
   }
   article aside {
     flex-direction: column-reverse;
   }
   article aside .img1 {
-    margin-left: 40vw;
+    margin-left: 60vw;
     margin-top: 18vh;
     width: 90vw;
     height: 55vh;
   }
   article aside div {
-    margin-left: 30vw;
+    margin-left: 50vw;
   }
   article aside div h2 {
     width: 94vw;
