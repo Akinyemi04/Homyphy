@@ -493,7 +493,7 @@ aside .div button:hover {
   }
   article section .img2 {
     position: absolute;
-    transform: scale(3) translateY(16vh);
+    transform: scale(3) translateY(18vh);
     left: 50vw;
   }
   article aside {
