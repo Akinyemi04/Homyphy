@@ -122,7 +122,7 @@ function App() {
         </div>
       </aside>
       <footer className='foot'>
-        <section >
+        <section id='digital'>
           <h6>Digital Agency</h6>
           <p>Buiding Digital Products</p>
           <p>Brands& Experience</p>

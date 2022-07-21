@@ -93,13 +93,16 @@
   transform: translatey(10vh);
 }
 .App footer {
-  transform: translate(20vw, 12vh);
-  background-color: rgb(246, 246, 246);
+  transform: translatey(12vh);
   border: 1px solid none;
   border-radius: 0.4vw;
-  display: inline-block;
+  display: block;
 }
 .App footer ul {
+  background-color: rgb(246, 246, 246);
+  margin: 0 auto;
+  width: 50vw;
+  justify-content: center;
   display: flex;
   flex-direction: row;
 }
@@ -129,6 +132,7 @@ article {
 article aside {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 article aside .img1 {
   width: 35vw;
@@ -141,7 +145,7 @@ article aside div {
   display: flex;
   flex-direction: column;
   width: 40vw;
-  transform: translate(11vw, 8vh);
+  transform: translate(9vw, 8vh);
   display: inline-block;
 }
 article aside div h2 {
@@ -152,7 +156,7 @@ article aside div h2 {
   font-weight: 600;
 }
 article aside div p {
-  transform: translate(-0.2vw, 4vh);
+  transform: translate(-0.7vw, 4vh);
   font-family: inter;
   font-size: 16px;
   line-height: 27px;
@@ -167,6 +171,7 @@ article aside div #arrow:hover {
 article section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 article section div {
   display: flex;
@@ -189,7 +194,7 @@ article section div p {
   font-weight: 400;
 }
 article section div .img3 {
-  transform: translate(-12vw, -14vh) scale(0.07);
+  transform: translate(-10vw, -14vh) scale(0.07);
 }
 article section div .img3:hover {
   opacity: 50%;
@@ -292,8 +297,12 @@ aside .div button:hover {
 .foot {
   display: flex;
   height: 28vh;
+  justify-content: center;
   flex-direction: row;
   background: linear-gradient(to top, rgba(142, 173, 213, 0.24) 80%, white);
+}
+.foot #digital {
+  margin-left: 0vw;
 }
 .foot section {
   display: flex;
@@ -326,6 +335,9 @@ aside .div button:hover {
 }
 
 @media screen and (max-width: 1100px) {
+  .App footer ul {
+    width: 65vw;
+  }
   .App #bus {
     transform: translate(-2vw, 14vh);
     width: 35vw;
@@ -342,6 +354,9 @@ aside .div button:hover {
   }
 }
 @media screen and (max-width: 800px) {
+  .App span {
+    margin-left: 30vw;
+  }
   .App h1 {
     font-weight: 700;
     font-size: 14px;
@@ -350,7 +365,7 @@ aside .div button:hover {
   .App .zex {
     position: absolute;
     display: inline-block;
-    transform: translate(145vw, 3vh) scale(1.4);
+    transform: translate(155vw, 3vh) scale(1.4);
     transition: all 0.1s ease-in;
   }
   .App .zex:hover {
@@ -359,7 +374,7 @@ aside .div button:hover {
   .App .xex {
     display: none;
     position: absolute;
-    transform: translate(147vw, 2vh);
+    transform: translate(157vw, 2vh);
     display: inline-block;
     transition: all 0.1s ease-in;
   }
@@ -383,6 +398,8 @@ aside .div button:hover {
   }
   .App aside {
     position: relative;
+    margin: 0 auto;
+    justify-content: center;
   }
   .App aside section {
     margin-top: 2vh;
@@ -418,17 +435,19 @@ aside .div button:hover {
     position: absolute;
     transform: scale(2.7);
     top: 78vh;
-    left: 65vw;
+    left: 80vw;
   }
   .App span {
     transform: translate(30vw, 84vh);
   }
   .App footer {
-    transform: translate(13vw, 87vh);
+    transform: translate(29vw, 87vh);
   }
   .App footer ul {
     -webkit-margin-before: 0;
             margin-block-start: 0;
+    width: 120vw;
+    justify-content: space-around;
     -webkit-margin-after: 0;
             margin-block-end: 0;
     -webkit-padding-start: 0;
@@ -461,6 +480,7 @@ aside .div button:hover {
   article section {
     flex-direction: column;
     position: relative;
+    margin-left: 15vw;
   }
   article section div {
     margin-left: 41vw;
@@ -473,7 +493,7 @@ aside .div button:hover {
   }
   article section .img2 {
     position: absolute;
-    transform: scale(3) translateY(18vh);
+    transform: scale(3) translateY(13vh);
     left: 50vw;
   }
   article aside {
@@ -503,10 +523,10 @@ aside .div button:hover {
   aside header p {
     width: 45vw;
     margin-top: 4vh;
-    margin-left: 66vw;
+    margin-left: 77vw;
   }
   aside header h4 {
-    margin-left: 50vw;
+    margin-left: 60vw;
     margin-top: 5vh;
     width: 80vw;
     -webkit-margin-before: 0em;
@@ -520,11 +540,12 @@ aside .div button:hover {
   }
   aside section {
     flex-direction: column;
+    justify-content: center;
   }
   aside section div {
     width: 130vw;
     border-radius: 2vw;
-    margin-left: 10vw;
+    margin-left: 25vw;
     margin-bottom: 3vh;
   }
   aside section div figure {
@@ -535,7 +556,7 @@ aside .div button:hover {
     border-radius: 2vw;
     width: 130vw;
     height: 33vh;
-    margin-left: 19vw;
+    margin-left: 35vw;
   }
   aside .div img {
     display: none;
@@ -564,11 +585,14 @@ aside .div button:hover {
   .foot {
     flex-direction: column;
     text-align: center;
-    width: 170vw;
+    width: 200vw;
     height: 100vh;
     align-items: center;
   }
   .foot section {
     margin-top: 3vh;
+  }
+  .pin {
+    transform: translate(58vw, -4vh);
   }
 }/*# sourceMappingURL=App.css.map */
