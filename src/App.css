@@ -365,7 +365,7 @@ aside .div button:hover {
   .App .zex {
     position: absolute;
     display: inline-block;
-    transform: translate(155vw, 3vh) scale(1.4);
+    transform: translate(175vw, 3vh) scale(1.4);
     transition: all 0.1s ease-in;
   }
   .App .zex:hover {
@@ -374,7 +374,7 @@ aside .div button:hover {
   .App .xex {
     display: none;
     position: absolute;
-    transform: translate(157vw, 2vh);
+    transform: translate(177vw, 2vh);
     display: inline-block;
     transition: all 0.1s ease-in;
   }
@@ -383,7 +383,7 @@ aside .div button:hover {
   }
   .App nav {
     position: relative;
-    transform: translate(74vw, 7vh);
+    transform: translate(94vw, 7vh);
     z-index: 1;
   }
   .App nav ul {
@@ -474,7 +474,7 @@ aside .div button:hover {
   article {
     margin-top: 70vh;
     height: 210vh;
-    width: 180vw;
+    width: 200vw;
     background-size: cover;
   }
   article section {
@@ -493,7 +493,7 @@ aside .div button:hover {
   }
   article section .img2 {
     position: absolute;
-    transform: scale(3) translateY(13vh);
+    transform: scale(3) translateY(17vh);
     left: 50vw;
   }
   article aside {

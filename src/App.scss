@@ -388,7 +388,7 @@ aside{
     .zex{
       position: absolute;
       display: inline-block;
-      transform: translate(155vw,3vh) scale(1.4);
+      transform: translate(175vw,3vh) scale(1.4);
       transition: all 0.1s ease-in;
     }
     .zex:hover{
@@ -397,7 +397,7 @@ aside{
     .xex{
       display: none;
       position: absolute;
-      transform: translate(157vw,2vh);
+      transform: translate(177vw,2vh);
       display: inline-block;
       transition: all 0.1s ease-in;
     }
@@ -407,7 +407,7 @@ aside{
     nav{
       //display: none;
       position: relative;
-      transform: translate(74vw,7vh);
+      transform: translate(94vw,7vh);
       z-index: 1;
       ul{
         display: none;
@@ -496,7 +496,7 @@ aside{
   article{
     margin-top: 70vh;
     height: 210vh;
-    width: 180vw;
+    width: 200vw;
     background-size: cover;
     section{
       flex-direction: column;
@@ -513,7 +513,7 @@ aside{
       }
       .img2{
         position: absolute;
-        transform: scale(3) translateY(13vh);
+        transform: scale(3) translateY(17vh);
         left: 50vw;
       }
     }
